@@ -722,6 +722,8 @@ pub fn run() {
             // Browser tab URL sync commands (called by injected JS)
             commands::browser_tab_report_url,
             commands::browser_tab_report_loaded,
+            // Filesystem/search commands
+            commands::search_content,
             // Data migration commands
             commands::data_migration_get_version,
             commands::data_migration_get_history,
